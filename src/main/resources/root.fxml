@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="565.0" prefWidth="830.0" xmlns="http://javafx.com/javafx/8.0.161" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+  <children>
+      <BorderPane prefHeight="549.0" prefWidth="830.0">
+         <bottom>
+            <AnchorPane prefHeight="333.0" prefWidth="830.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="254.0" layoutY="14.0" prefHeight="240.0" prefWidth="323.0">
+                     <children>
+                        <Button fx:id="keypadOne" layoutX="70.0" layoutY="14.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="45.0" text="1" />
+                        <Button fx:id="keypadTwo" layoutX="135.0" layoutY="14.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="45.0" text="2" />
+                        <Button fx:id="keypadThree" layoutX="200.0" layoutY="14.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="45.0" text="3" />
+                        <Button fx:id="keypadFour" layoutX="70.0" layoutY="71.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="45.0" text="4" />
+                        <Button fx:id="keypadFive" layoutX="135.0" layoutY="71.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="45.0" text="5" />
+                        <Button fx:id="keypadSix" layoutX="200.0" layoutY="71.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="45.0" text="6" />
+                        <Button fx:id="keypadSeven" layoutX="70.0" layoutY="128.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="45.0" text="7" />
+                        <Button fx:id="keypadEight" layoutX="135.0" layoutY="128.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="45.0" text="8" />
+                        <Button fx:id="keypadNine" layoutX="200.0" layoutY="128.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="45.0" text="9" />
+                        <Button fx:id="keypadZero" layoutX="135.0" layoutY="185.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="45.0" text="0" />
+                     </children>
+                  </AnchorPane>
+                  <Button fx:id="cardSlot" layoutX="577.0" layoutY="35.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="208.0" text="Card Slot" />
+                  <Button fx:id="enter" layoutX="651.0" layoutY="83.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="134.0" text="Enter" />
+                  <Button fx:id="clear" layoutX="651.0" layoutY="134.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="134.0" text="Clear" />
+                  <Button fx:id="cancel" layoutX="651.0" layoutY="185.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="134.0" text="Cancel" />
+                  <Button fx:id="receiptSlot" layoutX="46.0" layoutY="35.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="208.0" text="Receipt" />
+                  <Button fx:id="cashDispenser" layoutX="46.0" layoutY="294.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="208.0" text="Cash Dispenser" />
+                  <Button fx:id="depositSlot" layoutX="577.0" layoutY="294.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="208.0" text="Deposit Slot" />
+               </children>
+            </AnchorPane>
+         </bottom>
+         <left>
+            <AnchorPane prefHeight="276.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="leftOne" layoutX="52.0" layoutY="26.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="96.0" />
+                  <Button fx:id="leftTwo" layoutX="52.0" layoutY="93.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="96.0" />
+                  <Button fx:id="leftThree" layoutX="52.0" layoutY="160.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="96.0" />
+                  <Button fx:id="leftFour" layoutX="52.0" layoutY="226.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="96.0" />
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="282.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="rightOne" layoutX="52.0" layoutY="26.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="96.0" />
+                  <Button fx:id="rightTwo" layoutX="52.0" layoutY="93.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="96.0" />
+                  <Button fx:id="rightThree" layoutX="52.0" layoutY="160.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="96.0" />
+                  <Button fx:id="rightFour" layoutX="52.0" layoutY="226.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="96.0" />
+               </children>
+            </AnchorPane>
+         </right>
+         <center>
+            <AnchorPane prefHeight="266.0" prefWidth="430.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextArea fx:id="textArea" layoutX="34.0" layoutY="21.0" prefHeight="257.0" prefWidth="362.0" text="Welcome!&#10;&#10;Lava Lamp Creditors of Crediting Union&#10;EST. 1645&#10;&#10;Please insert your ATM card." />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+  </children>
+</VBox>
